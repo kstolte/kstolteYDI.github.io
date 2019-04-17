@@ -375,57 +375,11 @@ export class AppComponent {
               avatarUrl: 'https://avatars3.githubusercontent.com/u/16708801?v=4'
             }
           }
-        },
-        {
-          node: {
-            name: 'react-fullstack-graphql',
-            url:
-              'https://github.com/graphql-boilerplates/react-fullstack-graphql',
-            owner: {
-              login: 'graphql-boilerplates',
-              avatarUrl: 'https://avatars2.githubusercontent.com/u/18574799?v=4'
-            }
-          }
-        },
-        {
-          node: {
-            name: 'atn-hubot',
-            url: 'https://github.com/schie/atn-hubot',
-            owner: {
-              login: 'schie',
-              avatarUrl: 'https://avatars1.githubusercontent.com/u/4561856?v=4'
-            }
-          }
-        },
-        {
-          node: {
-            name: 'pong-score-board',
-            url: 'https://github.com/schie/pong-score-board',
-            owner: {
-              login: 'schie',
-              avatarUrl: 'https://avatars1.githubusercontent.com/u/4561856?v=4'
-            }
-          }
-        },
-        {
-          node: {
-            name: 'kstolte.github.io',
-            url: 'https://github.com/kstolte/kstolte.github.io',
-            owner: {
-              login: 'kstolte',
-              avatarUrl: 'https://avatars0.githubusercontent.com/u/20091146?v=4'
-            }
-          }
-        }
-      ]
-    }
-  };
-}
 
 // GitHub GraphQL Query
-// {
+// query {
 //   viewer {
-//    contributedRepositories (first:20) {
+//    repositoriesContributedTo (first:20) {
 //      edges {
 //        node {
 //          name
@@ -436,24 +390,5 @@ export class AppComponent {
 //        }
 //      }
 //    }
-//    pullRequests(first: 100, orderBy: {field: UPDATED_AT, direction:DESC}){
-//      totalCount
-//      nodes{
-//        repository{
-//          nameWithOwner
-//          owner{avatarUrl}
-//        }
-//        additions
-//        deletions
-//        title
-//        merged
-//      }
-//    }
-//    organizations(first:10){
-//      nodes{
-//        name
-//        avatarUrl
-//      }
-//    }
-//  }
+//   }
 //  }
