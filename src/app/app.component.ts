@@ -425,6 +425,7 @@ export class AppComponent {
               avatarUrl: 'https://avatars3.githubusercontent.com/u/16708801?v=4'
             }
           }}]}};
+        }
 
 // GitHub GraphQL Query
 // query {

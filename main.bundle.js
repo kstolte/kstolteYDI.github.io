@@ -92,8 +92,11 @@ var JOBS = [
         location: "Norfolk, VA",
         startDate: new Date("2016-11-01"),
         endDate: null,
-        jobSummary: "Develop and maintain components of an inventory management software solution.\n     The solution is based on a MSSQL database backend with a Long-Term Support WinForms Client application.\n     Recent development has been based around new feature implementation in WinForms Client, Online Angular\n     Web App, .Net Core API, and iOS/Android Applications.",
+        jobSummary: "Develop and maintain components of an inventory management software solution. The solution is based on a MSSQL database backend with a long-term support WinForms Client application and iOS/Android Applications.",
         jobRoles: [
+            {
+                Role: "Recent development has been based around new feature implementation in WinForms Client, React Web Apps, .Net Core API, iOS/Android Applications, and ExpressJS GraphQL server."
+            },
             {
                 Role: "Resolve all issues with software and final escalation point for end users."
             },
@@ -101,10 +104,10 @@ var JOBS = [
                 Role: "Conceptualize, plan, and execute new features and technology into the software solution."
             },
             {
-                Role: "Create system integrations between Yellow Dog Inventory Systems and Third Party."
+                Role: "Create system integrations between Yellow Dog Inventory and third party systems."
             },
             {
-                Role: "Architected a tool for Support and Implementation Groups to track real time system status to deliver proactive support and client assistance."
+                Role: "Architected and implemented an internal tool for Support and Implementation groups to track real time system status to deliver proactive support and client assistance."
             }
         ],
         jobTechnologies: [
@@ -123,12 +126,33 @@ var JOBS = [
         ]
     },
     {
+        title: "Technology Committee Chair",
+        employer: "Plaza Volunteer Rescue Squad",
+        location: "Virginia Beach, VA",
+        startDate: new Date("2012-11-01"),
+        endDate: new Date("2018-01-01"),
+        jobSummary: "",
+        jobRoles: [
+            {
+                Role: "Setup and maintained an Office 365 Environment consisting of email, internal SharePoint Sites and an external SharePoint website for 80+ users."
+            },
+            { Role: "Setup and maintained an online website donation process that generated additional revenue donation." },
+            {
+                Role: "Assisted with researching and procuring an ambulance at a purchase price of $235,000."
+            },
+            {
+                Role: "Volunteered 56 hours per month providing emergency medical services on an ambulance and heavy rescue truck."
+            }
+        ],
+        jobTechnologies: [MSSQL, SharePoint, NetFramework, { Technology: "WireShark" }]
+    },
+    {
         title: "DBA / IT Manager",
         employer: "Yellow Dog Software",
         location: "Norfolk, VA",
         startDate: new Date("2016-05-15"),
         endDate: new Date("2016-10-31"),
-        jobSummary: "Served in a DevOps Role for a Software Development Organization.\n    Performed as the escalation point for support tickets to provide fixes and fact finding\n    prior to being escalated to the development group. ",
+        jobSummary: "Served in a DevOps Role for a software development organization. Performed as the escalation point for support tickets to provide fixes and fact finding prior to being escalated to the development group.",
         jobRoles: [
             {
                 Role: "Maintained and supported 50+ physical servers that were both onsite and hosted through a third party datacenter."
@@ -153,26 +177,23 @@ var JOBS = [
         location: "Virginia Beach, VA",
         startDate: new Date("2015-06-01"),
         endDate: new Date("2016-05-15"),
-        jobSummary: "Implemented and maintained the Software items in the Service " +
-            "Portfolio and Pipeline. This includes tier 2 & 3 end user support, diagnosing software problems and scheduled maintenance. " +
-            "In addition, they provide advanced system administration/configuration tasks and consult customers on proposed changes " +
-            "within In House (Custom) Applications and third-party COTS software products.",
+        jobSummary: "Implemented and maintained the Software items in the Service Portfolio and Pipeline.",
         jobRoles: [
             {
                 Role: "Developed SQL reports and queries for IT Department and customer use."
             },
             {
-                Role: "Maintained SharePoint site with on premise SharePoint Server Farm."
+                Role: "Maintained SharePoint sites with on premise SharePoint Server Farm."
             },
             {
-                Role: "Developed multifaceted SharePoint sites assist customers with storing and cataloging documents, data, and processes. "
+                Role: "Developed multifaceted SharePoint sites to assist customers with storing and cataloging documents, data, and processes. "
             },
-            { Role: "Provided 3rd tier support for end user support." },
+            { Role: "Provided Tier 3 end user support." },
             {
-                Role: "Conducted deep dives into software application logic while troubleshooting and perform analysis on complex application usage scenarios."
+                Role: "Conducted deep dives into software application logic while troubleshooting and performed analysis on complex application usage scenarios."
             },
             {
-                Role: "Provided advanced system administration/configuration tasks and consult customers on proposed changes within In House (Custom) Applications and 3rd party COTS software products."
+                Role: "Provided advanced system administration/configuration tasks and consulted customers on proposed changes within In House (Custom) Applications and third party COTS software products."
             }
         ],
         jobTechnologies: [
@@ -182,7 +203,6 @@ var JOBS = [
             { Technology: "WireShark" },
             { Technology: "Juniper Networks" },
             { Technology: "POSiTouch" },
-            { Technology: "WireShark" },
             { Technology: "Micros POS" },
             { Technology: "Opera PMS" },
             { Technology: "OnQ PMS" },
@@ -197,7 +217,7 @@ var JOBS = [
         location: "Virginia Beach, VA",
         startDate: new Date("2013-03-15"),
         endDate: new Date("2015-06-01"),
-        jobSummary: "Provided onsite and phone support to all levels of employees",
+        jobSummary: "Provided onsite and phone support to all levels of employees.",
         jobRoles: [
             {
                 Role: "Developed low to medium level SQL reports and queries for IT Department and customer use."
@@ -209,16 +229,16 @@ var JOBS = [
                 Role: "Maintained SharePoint site with on premise SharePoint Server Farm."
             },
             {
-                Role: "Conducted deep dives into software application logic while troubleshooting and perform analysis on complex application usage scenarios."
+                Role: "Conducted deep dives into software application logic while troubleshooting and performed analysis on complex application usage scenarios."
             },
             {
                 Role: 'Setup and delivered a SharePoint site that securely stores all associate personnel records.'
             },
             {
-                Role: 'Troubleshoot, maintain, and support multiple internal applications on a variety of platforms and frameworks.'
+                Role: 'Troubleshooted, maintained, and supported multiple internal applications on a variety of platforms and frameworks.'
             },
             {
-                Role: 'Implement complex applications and products to outlets along the Virginia Beach Oceanfront.'
+                Role: 'Implemented complex applications and products to outlets along the Virginia Beach Oceanfront.'
             }
         ],
         jobTechnologies: [
@@ -256,32 +276,7 @@ var JOBS = [
         jobTechnologies: [SharePoint, { Technology: 'Lotus Notes' }]
     },
     {
-        title: 'Production Assistant',
-        employer: 'Studio Center Total Production',
-        location: 'Norfolk, VA',
-        startDate: new Date('2007-05-20'),
-        endDate: new Date('2013-03-15'),
-        jobSummary: "Telecommuting job to assist with an enterprise wide migration from Lotus Notes to Microsoft SharePoint.\n                  My components of the project was successful and termination was based on the ending of the project.",
-        jobRoles: [
-            {
-                Role: 'Created a Collaboration tool to track the status of contacting talent in VArious localities and time zones.'
-            },
-            {
-                Role: 'Provide recording services for auditioning voice talent prior to being booked by a client.'
-            },
-            { Role: 'Troubleshoot Audio Routing and Patching issues.' },
-            {
-                Role: 'Provide expert feedback and guide talent to performing at their best.'
-            }
-        ],
-        jobTechnologies: [
-            { Technology: 'Google Sheets' },
-            { Technology: 'Pro Tools' },
-            AppleComp
-        ]
-    },
-    {
-        title: 'Audio Engineer',
+        title: 'Chief Audio Engineer, Stage Manager & Stage Hand',
         employer: 'Roper Performing Arts Center',
         location: 'Norfolk, VA',
         startDate: new Date('2009-02-01'),
@@ -289,16 +284,40 @@ var JOBS = [
         jobSummary: "",
         jobRoles: [
             {
-                Role: 'Perform as a Stage Manager to make critical decisions while in rehearsals and the performance of live theatrical performances.'
+                Role: 'Performed as a Stage Manager to make critical decisions while in rehearsals and live theatrical performances.'
             },
             {
-                Role: 'Provide live sound reinforcement for various types of performing genres.'
+                Role: 'Provided live sound reinforcement for various types of performing genres.'
             },
             {
                 Role: 'Designed the updated theatre’s sound system, still currently in use.'
             },
             {
-                Role: 'Assist with load-in and load-out of equipment and props for use during stage performances.'
+                Role: 'Assisted with load-in and load-out of equipment and props for use during stage performances.'
+            }
+        ],
+        jobTechnologies: [
+            { Technology: 'Google Sheets' },
+            { Technology: 'Pro Tools' },
+            AppleComp
+        ]
+    }, {
+        title: 'Production Assistant',
+        employer: 'Studio Center Total Production',
+        location: 'Norfolk, VA',
+        startDate: new Date('2007-05-20'),
+        endDate: new Date('2012-03-15'),
+        jobSummary: "",
+        jobRoles: [
+            {
+                Role: 'Created a collaboration tool to track the status of contacting talent in various localities and time zones for multiple projects.'
+            },
+            { Role: 'Troubleshooted routing and patching issues between multiple studio rooms and sound sources.' },
+            {
+                Role: 'Provided recording services for client script auditioning..'
+            },
+            {
+                Role: 'Provided expert feedback and guided voiceover talent to performing at their best.'
             }
         ],
         jobTechnologies: [
@@ -337,11 +356,61 @@ var AppComponent = /** @class */ (function () {
                     },
                     {
                         node: {
-                            name: 'awesome-public-datasets',
-                            url: 'https://github.com/caesar0301/awesome-public-datasets',
+                            name: 'github-release-notes',
+                            url: 'https://github.com/github-tools/github-release-notes',
                             owner: {
-                                login: 'caesar0301',
-                                avatarUrl: 'https://avatars3.githubusercontent.com/u/499254?v=4'
+                                login: 'github-tools',
+                                avatarUrl: 'https://avatars0.githubusercontent.com/u/16116810?v=4'
+                            }
+                        }
+                    },
+                    {
+                        node: {
+                            name: 'expo-docs',
+                            url: 'https://github.com/expo/expo-docs',
+                            owner: {
+                                login: 'expo',
+                                avatarUrl: 'https://avatars3.githubusercontent.com/u/12504344?v=4'
+                            }
+                        }
+                    },
+                    {
+                        node: {
+                            name: 'expo',
+                            url: 'https://github.com/expo/expo',
+                            owner: {
+                                login: 'expo',
+                                avatarUrl: 'https://avatars3.githubusercontent.com/u/12504344?v=4'
+                            }
+                        }
+                    },
+                    {
+                        node: {
+                            name: 'cz-emoji',
+                            url: 'https://github.com/ngryman/cz-emoji',
+                            owner: {
+                                login: 'ngryman',
+                                avatarUrl: 'https://avatars2.githubusercontent.com/u/892048?v=4'
+                            }
+                        }
+                    },
+                    {
+                        node: {
+                            name: 'react-native-website',
+                            url: 'https://github.com/facebook/react-native-website',
+                            owner: {
+                                login: 'facebook',
+                                avatarUrl: 'https://avatars3.githubusercontent.com/u/69631?v=4'
+                            }
+                        }
+                    },
+                    {
+                        node: {
+                            name: 'azuredatastudio',
+                            url: 'https://github.com/Microsoft/azuredatastudio',
+                            owner: {
+                                login: 'Microsoft',
+                                avatarUrl: 'https://avatars2.githubusercontent.com/u/6154722?v=4'
                             }
                         }
                     },
@@ -352,46 +421,6 @@ var AppComponent = /** @class */ (function () {
                             owner: {
                                 login: 'sshnet',
                                 avatarUrl: 'https://avatars3.githubusercontent.com/u/16708801?v=4'
-                            }
-                        }
-                    },
-                    {
-                        node: {
-                            name: 'react-fullstack-graphql',
-                            url: 'https://github.com/graphql-boilerplates/react-fullstack-graphql',
-                            owner: {
-                                login: 'graphql-boilerplates',
-                                avatarUrl: 'https://avatars2.githubusercontent.com/u/18574799?v=4'
-                            }
-                        }
-                    },
-                    {
-                        node: {
-                            name: 'atn-hubot',
-                            url: 'https://github.com/schie/atn-hubot',
-                            owner: {
-                                login: 'schie',
-                                avatarUrl: 'https://avatars1.githubusercontent.com/u/4561856?v=4'
-                            }
-                        }
-                    },
-                    {
-                        node: {
-                            name: 'pong-score-board',
-                            url: 'https://github.com/schie/pong-score-board',
-                            owner: {
-                                login: 'schie',
-                                avatarUrl: 'https://avatars1.githubusercontent.com/u/4561856?v=4'
-                            }
-                        }
-                    },
-                    {
-                        node: {
-                            name: 'kstolte.github.io',
-                            url: 'https://github.com/kstolte/kstolte.github.io',
-                            owner: {
-                                login: 'kstolte',
-                                avatarUrl: 'https://avatars0.githubusercontent.com/u/20091146?v=4'
                             }
                         }
                     }
@@ -410,9 +439,9 @@ var AppComponent = /** @class */ (function () {
 }());
 
 // GitHub GraphQL Query
-// {
+// query {
 //   viewer {
-//    contributedRepositories (first:20) {
+//    repositoriesContributedTo (first:20) {
 //      edges {
 //        node {
 //          name
@@ -423,26 +452,7 @@ var AppComponent = /** @class */ (function () {
 //        }
 //      }
 //    }
-//    pullRequests(first: 100, orderBy: {field: UPDATED_AT, direction:DESC}){
-//      totalCount
-//      nodes{
-//        repository{
-//          nameWithOwner
-//          owner{avatarUrl}
-//        }
-//        additions
-//        deletions
-//        title
-//        merged
-//      }
-//    }
-//    organizations(first:10){
-//      nodes{
-//        name
-//        avatarUrl
-//      }
-//    }
-//  }
+//   }
 //  }
 
 
