@@ -358,11 +358,61 @@ export class AppComponent {
         },
         {
           node: {
-            name: 'awesome-public-datasets',
-            url: 'https://github.com/caesar0301/awesome-public-datasets',
+            name: 'github-release-notes',
+            url: 'https://github.com/github-tools/github-release-notes',
             owner: {
-              login: 'caesar0301',
-              avatarUrl: 'https://avatars3.githubusercontent.com/u/499254?v=4'
+              login: 'github-tools',
+              avatarUrl: 'https://avatars0.githubusercontent.com/u/16116810?v=4'
+            }
+          }
+        },
+        {
+          node: {
+            name: 'expo-docs',
+            url: 'https://github.com/expo/expo-docs',
+            owner: {
+              login: 'expo',
+              avatarUrl: 'https://avatars3.githubusercontent.com/u/12504344?v=4'
+            }
+          }
+        },
+        {
+          node: {
+            name: 'expo',
+            url: 'https://github.com/expo/expo',
+            owner: {
+              login: 'expo',
+              avatarUrl: 'https://avatars3.githubusercontent.com/u/12504344?v=4'
+            }
+          }
+        },
+        {
+          node: {
+            name: 'cz-emoji',
+            url: 'https://github.com/ngryman/cz-emoji',
+            owner: {
+              login: 'ngryman',
+              avatarUrl: 'https://avatars2.githubusercontent.com/u/892048?v=4'
+            }
+          }
+        },
+        {
+          node: {
+            name: 'react-native-website',
+            url: 'https://github.com/facebook/react-native-website',
+            owner: {
+              login: 'facebook',
+              avatarUrl: 'https://avatars3.githubusercontent.com/u/69631?v=4'
+            }
+          }
+        },
+        {
+          node: {
+            name: 'azuredatastudio',
+            url: 'https://github.com/Microsoft/azuredatastudio',
+            owner: {
+              login: 'Microsoft',
+              avatarUrl: 'https://avatars2.githubusercontent.com/u/6154722?v=4'
             }
           }
         },
@@ -374,7 +424,7 @@ export class AppComponent {
               login: 'sshnet',
               avatarUrl: 'https://avatars3.githubusercontent.com/u/16708801?v=4'
             }
-          }
+          }}]}};
 
 // GitHub GraphQL Query
 // query {
